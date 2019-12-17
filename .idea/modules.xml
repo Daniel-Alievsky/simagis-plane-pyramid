@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/simagis-plane-pyramid.iml" filepath="$PROJECT_DIR$/simagis-plane-pyramid.iml" />
+      <module fileurl="file://$PROJECT_DIR$/simagis-plane-pyramid-barcode/simagis-plane-pyramid-barcode.iml" filepath="$PROJECT_DIR$/simagis-plane-pyramid-barcode/simagis-plane-pyramid-barcode.iml" />
+      <module fileurl="file://$PROJECT_DIR$/simagis-plane-pyramid-common/simagis-plane-pyramid-common.iml" filepath="$PROJECT_DIR$/simagis-plane-pyramid-common/simagis-plane-pyramid-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/simagis-plane-pyramid-executable/simagis-plane-pyramid-executable.iml" filepath="$PROJECT_DIR$/simagis-plane-pyramid-executable/simagis-plane-pyramid-executable.iml" />
+      <module fileurl="file://$PROJECT_DIR$/simagis-plane-pyramid-sdk/simagis-plane-pyramid-sdk.iml" filepath="$PROJECT_DIR$/simagis-plane-pyramid-sdk/simagis-plane-pyramid-sdk.iml" />
+    </modules>
+  </component>
+</project>
