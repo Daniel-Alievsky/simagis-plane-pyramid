@@ -15,8 +15,8 @@
         <module>simagis-plane-pyramid-executable</module>
     </modules>
 
-    <name>Simagis Live Plane Pyramid SDK</name>
-    <description>Open-source mini-SDK for implementing plane pyramid for Simagis Live project.</description>
+    <name>Simagis Plane Pyramid SDK</name>
+    <description>Open-source mini-SDK for implementing plane pyramid.</description>
 
     <licenses>
         <license>
