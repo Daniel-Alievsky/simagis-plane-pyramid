@@ -7,7 +7,7 @@
     <groupId>net.algart.simagis</groupId>
     <artifactId>simagis-plane-pyramid</artifactId>
     <packaging>pom</packaging>
-    <version>1.3.0</version>
+    <version>1.3.1</version>
     <modules>
         <module>simagis-plane-pyramid-sdk</module>
         <module>simagis-plane-pyramid-common</module>
@@ -38,17 +38,6 @@
         <connection>scm:git:https://github.com/simagis/simagis-plane-pyramid-sdk.git</connection>
         <url>https://github.com/simagis/simagis-plane-pyramid-sdk.git</url>
     </scm>
-
-    <repositories>
-        <repository>
-            <id>simagis-open-releases</id>
-            <url>http://simagis.artifactoryonline.com/simagis/open-releases-local</url>
-        </repository>
-        <repository>
-            <id>simagis-open-ext-releases</id>
-            <url>http://simagis.artifactoryonline.com/simagis/open-ext-releases-local</url>
-        </repository>
-    </repositories>
 
     <build>
         <plugins>
