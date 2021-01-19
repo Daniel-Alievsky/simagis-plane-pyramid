@@ -127,7 +127,8 @@ public final class ImageIOPlanePyramidSource extends AbstractPlanePyramidSourceW
                 ImageReader reader = getImageReader(iis);
                 try {
                     ImageReadParam param = getReadParam(reader);
-                    reader.setInput(iis, false);
+                    reader.setInput(iis, false, true);
+                    // - note: we set ignoreMetadata=true, line in the default implementation if ImageIO.read
                     final BufferedImage result = readBufferedImageByReader(reader, param);
                     this.lastImageCount = reader.getNumImages(false);
                     return result;
