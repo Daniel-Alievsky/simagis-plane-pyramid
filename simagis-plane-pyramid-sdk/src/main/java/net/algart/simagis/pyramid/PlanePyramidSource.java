@@ -46,8 +46,8 @@ public interface PlanePyramidSource {
     long DEFAULT_TILE_DIM = Math.max(16,
         Arrays.SystemSettings.getLongProperty("net.algart.simagis.pyramid.tile", 1024));
     int DEBUG_LEVEL = Math.max(
-        Arrays.SystemSettings.getIntProperty("net.algart.simagis.pyramid.debugLevel", 1),
-        Arrays.SystemSettings.getIntEnv("NET_ALGART_SIMAGIS_PYRAMID_DEBUGLEVEL", 1));
+        Arrays.SystemSettings.getIntProperty("net.algart.simagis.pyramid.debugLevel", 0),
+        Arrays.SystemSettings.getIntEnv("NET_ALGART_SIMAGIS_PYRAMID_DEBUGLEVEL", 0));
     long DEFAULT_MINIMAL_PYRAMID_SIZE = 8;
 
     enum SpecialImageKind {
